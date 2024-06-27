@@ -23,7 +23,6 @@ const Pay = () => {
 						amount: 2000,
 					}
 				);
-				console.log(res.data);
         history('/success');
 			} catch (err) {
 				console.log(err);
